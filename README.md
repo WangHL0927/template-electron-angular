@@ -1,8 +1,10 @@
 # Template-Electron-Angular
 
-Angular version 8.3.26.
-electron version 8.3.26.
 
+## Dependencies 
 
+Angular ^8.3.26
+
+electron ^8.2.3
 
 
