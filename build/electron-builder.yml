@@ -1,0 +1,34 @@
+productName: Angular客户端模板
+appId: com.pi2star.electron.template
+copyright: "pi2star"
+
+directories:
+  output: "./out"
+  app: "./dist"
+
+asar: true
+
+win:
+  target:
+    - nsis
+mac:
+  icon: "./tmp/app.icns"
+  target:
+    - dmg
+
+nsis:
+  menuCategory: true
+  oneClick: false
+  perMachine: true
+  allowToChangeInstallationDirectory: true
+  runAfterFinish: false
+
+dmg:
+  contents:
+    - x: 380
+      y: 240
+      type: link
+      path: /Applications
+    - x: 122
+      y: 240
+      type: file
