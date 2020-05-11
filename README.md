@@ -23,9 +23,9 @@
 
 Node.js `^12.16.2`
 
-Angular `^8.3.26`
+Angular `^9.1.6`
 
-electron `^8.2.3`
+electron `^8.2.5`
 
 Install
 ```bash
