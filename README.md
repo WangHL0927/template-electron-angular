@@ -1,6 +1,7 @@
 # Template-Electron-Angular
 
----
+[![Build Status](https://dev.azure.com/pi2star/template-electron-angular/_apis/build/status/pi2star.template-electron-angular?branchName=master)](https://dev.azure.com/pi2star/template-electron-angular/_build/latest?definitionId=1&branchName=master)
+
 
 ## 简介
 
