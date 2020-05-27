@@ -7,7 +7,7 @@ jobs:
     steps:
       - checkout
       - run: npm install && npm install -g @angular/cli
-      - run: npm run build
+      - run: npm run build:ng-prod
   lint:
     docker:
       - image: node:12

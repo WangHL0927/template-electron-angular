@@ -1,7 +1,6 @@
 # Template-Electron-Angular
 
-[![Build Status](https://dev.azure.com/pi2star/template-electron-angular/_apis/build/status/pi2star.template-electron-angular?branchName=master)](https://dev.azure.com/pi2star/template-electron-angular/_build/latest?definitionId=1&branchName=master)
-
+[![CircleCI](https://circleci.com/gh/WangHL0927/template-electron-angular.svg?style=svg)](https://circleci.com/gh/WangHL0927/template-electron-angular)
 
 ## 简介
 
