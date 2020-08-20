@@ -1,12 +1,12 @@
 const path = require('path');
 const url = require('url');
-const { app, BrowserWindow } = require('electron');
+const {app, BrowserWindow} = require('electron');
 
 // 保持对window对象的全局引用，如果不这么做的话，当JavaScript对象被
 // 垃圾回收的时候，window对象将会自动的关闭
 let win;
 
-function createWindow () {
+function createWindow() {
   // 创建浏览器窗口。
   win = new BrowserWindow({
     width: 1400,
@@ -17,18 +17,18 @@ function createWindow () {
   });
 
   // 加载index.html文件
-  if( process.env.NODE_ENV === 'debug'){
-    console.log('start from dev-server...')
+  if (process.env.NODE_ENV === 'debug') {
+    console.log('start from dev-server...');
     win.loadURL('http://localhost:4200/');
     // 打开开发者工具
     win.webContents.openDevTools();
-  }else {
-    console.log('Start app from static files...')
-    console.log()
+  } else {
+    console.log('Start app from static files...');
+    console.log();
     win.loadURL(
       url.format({
         pathname: path.join(__dirname, '../www/index.html'),
-        protocol: "file:",
+        protocol: 'file:',
         slashes: true
       })
     );
