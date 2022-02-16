@@ -8,24 +8,17 @@
 
 主要技术依赖: Electron(native api) + Angular(web)
 
-本项目主要解决的问题：
-- 省去项目框架搭建步骤
-- 解决Electron + Angular 兼容问题
-- 解决Electron Typescript代码支持、编译问题
-- 解决Angular 调用native api 问题(ngx-electron)
-
-
 ---
 
 ## Quick Start
 
 ### Dependencies 
 
-Node.js `^12.16.2`
+Node.js `^16.14.0`
 
-Angular `^9.1.6`
+Angular `^13.1.0`
 
-electron `^8.2.5`
+electron `^17.0.0`
 
 Install
 ```bash

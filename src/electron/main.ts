@@ -32,7 +32,7 @@ function createWindow() {
     //     slashes: true
     //   })
     //
-    win.loadURL(path.join('file:/', __dirname, '../www/index.html'))
+    win.loadURL(path.join('file:/', __dirname, '../www/index.html'));
   }
 
   // 当 window 被关闭，这个事件会被触发。
