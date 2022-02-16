@@ -15,7 +15,7 @@ echo "Generate client resources..."
 npm run generate-res
 
 echo "Build angular..."
-ng build --prod
+ng build --configuration production
 
 echo "Build electron..."
 npm run build:electron
